@@ -8,7 +8,7 @@
     ],
     "build": {
       "env": {
-        "PRISMA_GENERATE": "true"
+        "PRISMA_GENERATE_IN_POSTBUILD": "true"
       }
     }
   }
