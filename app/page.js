@@ -9,18 +9,18 @@ import { Card, CardContent } from "@/components/ui/card";
   // Sparkles,
   // CheckCircle2,
 // } from "lucide-react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+// import {
+  // Accordion,
+  // AccordionContent,
+  // AccordionItem,
+  // AccordionTrigger,
+// } from "@/components/ui/accordion";
 // import Image from "next/image";
 // import { testimonial } from "@/data/testimonial";
 import Landing from "@/components/Landing";
-import { features } from "@/datas/features";
-import { faqs } from "@/datas/faqs";
-import { howItWorks } from "@/datas/howItWorks";
+// import { features } from "@/datas/features";
+// import { faqs } from "@/datas/faqs";
+// import { howItWorks } from "@/datas/howItWorks";
 import Explorer from "@/components/Explorer";
 
 export default function LandingPage() {
@@ -86,7 +86,7 @@ export default function LandingPage() {
       </section> */}
 
       {/* FAQ Section */}
-      <section className="w-full py-12 md:py-24">
+      {/* <section className="w-full py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">
@@ -110,7 +110,7 @@ export default function LandingPage() {
             </Accordion>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       {/*<section className="w-full">
