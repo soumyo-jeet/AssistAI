@@ -55,6 +55,9 @@ async function Header() {
                                 <DropdownMenuItem className="cursor-pointer">
                                     <Link href="/resume" className="w-full">Build Resume</Link>
                                 </DropdownMenuItem>
+                                <DropdownMenuItem className="cursor-pointer">
+                                    <Link href="/coverletter" className="w-full">Cover Letter</Link>
+                                </DropdownMenuItem>
                             </DropdownMenuContent>
                         </DropdownMenu>
                     </SignedIn>
