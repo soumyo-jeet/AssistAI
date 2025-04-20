@@ -7,6 +7,7 @@ export const features = [
     description:
       "Get personalized career advice and insights powered by advanced AI technology.",
   },
+  
   {
     icon: <Briefcase className="w-10 h-10 mb-4 text-primary" />,
     title: "Interview Preparation",
