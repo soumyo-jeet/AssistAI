@@ -27,6 +27,7 @@ export async function generateQuiz() {
     } professional${
     user.skills?.length ? ` with expertise in ${user.skills.join(", ")}` : ""
   }.
+  
     
     Each question should be multiple choice with 4 options.
     
