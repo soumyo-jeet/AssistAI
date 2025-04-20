@@ -31,6 +31,7 @@ const DEFAULT_INSIGHTS = {
 
 const VALID_DEMAND_LEVELS = new Set(["High", "Medium", "Low"]);
 
+
 export const generateIndustryInsights = async (industry) => {
   if (!industry?.trim()) throw new Error("Industry is required");
 
